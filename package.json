@@ -1,0 +1,30 @@
+{
+  "name": "is-kpp-js",
+  "version": "1.0.0",
+  "description": "Проверка валидности кода причины постановки на учёт ( КПП )",
+  "main": "istKpp.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spb-web/is-kpp-js.git"
+  },
+  "keywords": [
+    "KPP",
+    "проверка",
+    "валидности",
+    "валидатор",
+    "кпп"
+  ],
+  "author": "Vyacheslav Ruzanov <spb.web@bk.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spb-web/is-kpp-js/issues"
+  },
+  "homepage": "https://github.com/spb-web/is-kpp-js#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.1.2"
+  }
+}
