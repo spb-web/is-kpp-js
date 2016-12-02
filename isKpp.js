@@ -1,9 +1,16 @@
 ( function( ) {
 	var regExpKppCode = /^\d{4}\w{2}\d{3}$/;
+	var regExpZeroStr = /^0*$/;
 	var isKpp = function( kpp ) {
 		return (
-			( typeof kpp === "string" && regExpKppCode.test( kpp ) === true ) ||
-			( typeof kpp === "number" && kpp >= 10e9 && kpp < 10e10 )
+			(
+				typeof kpp === "string" &&
+				regExpKppCode.test( kpp ) === true &&
+				regExpZeroStr.test( kpp ) === false 
+			) || (
+			    typeof kpp === "number" &&
+			    kpp >= 10e9 && kpp < 10e10
+			)
 		);
 	}
 	/* 

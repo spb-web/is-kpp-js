@@ -1,8 +1,8 @@
 {
   "name": "is-kpp-js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Проверка валидности кода причины постановки на учёт ( КПП )",
-  "main": "istKpp.js",
+  "main": "isKpp.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test"
   },
